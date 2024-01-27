@@ -1,0 +1,1 @@
+Spring Boot + JWT Authentication -> token creation and safe guarding endpoints.

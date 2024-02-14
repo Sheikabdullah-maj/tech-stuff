@@ -13,6 +13,6 @@ public class UserService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         // Here we need to get the User information from persistent storage, for understanding it's hardcoded now.
-        return new User("admin", "password", Collections.emptyList());
+        return new User("admin", "$2a$10$vPtaUlLN9kcCTbmi5tN04uvxr5Vfj/HTS.bHk2adqd9phZlPegYNK", Collections.emptyList());
     }
 }

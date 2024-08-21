@@ -20,7 +20,7 @@ public class GithubApiConsumerController {
     @GetMapping("/repositories/{owner}/{repositoryName}")
     public GitRepoBasicDetailsDTO getRepoBasicDetails(@PathVariable String owner,
                                                       @PathVariable String repositoryName,
-                                                      @RequestHeader("Authorization") String authToken
+                                                      @RequestHeader(name = "Authorization",defaultValue = "") String authToken
                                                       ){
         log.info("Request received to get basic repository details, owner : {}, repositoryName : {}", owner, repositoryName);
         return githubApiConsumerService.doReadOnlyOperation(owner,repositoryName, authToken, CommonConstants.BASIC_REPO_DETAILS_LOOKUP);

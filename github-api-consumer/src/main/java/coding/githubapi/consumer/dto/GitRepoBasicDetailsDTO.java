@@ -1,9 +1,11 @@
 package coding.githubapi.consumer.dto;
 
 import com.fasterxml.jackson.annotation.*;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class GitRepoBasicDetailsDTO {
 
     private String fullName;

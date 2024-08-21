@@ -1,7 +1,8 @@
 package coding.githubapi.consumer.service;
 
 import coding.githubapi.consumer.dto.GitRepoBasicDetailsDTO;
+import coding.githubapi.consumer.model.GitRestAPIProperties;
 
 public interface GithubApiConsumerService {
-    GitRepoBasicDetailsDTO doReadOnlyOperation(String owner, String repoName, String authToken, String operation);
+    Object process(GitRestAPIProperties props);
 }

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: github-api-consumer
+github:
+  api:
+    baseUrl: https://api.github.com
+    readBasicRepoDetailsUrl: /repos/{owner}/{repoName}

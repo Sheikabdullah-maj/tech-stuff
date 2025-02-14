@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "questionId": 1,
+      "question": "What is the difference between == and .equals() in Java ?",
+      "choices": {
+        "1": "== compares values, .equals() compares references",
+        "2": "== compares references, .equals() compares values",
+        "3": "Both == and .equals() compare references",
+        "4": "Both == and .equals() compare values"
+      }
+    },
+    {
+      "questionId": 2,
+      "question": "Which of the following is true about ArrayList and LinkedList ?",
+      "choices": {
+        "1": "ArrayList is faster for insertions and deletions compared to LinkedList",
+        "2": "LinkedList maintains an array internally",
+        "3": "ArrayList provides fast random access, while LinkedList is better for frequent insertions/deletions",
+        "4": "LinkedList consumes less memory than ArrayList"
+      }
+    },
+    {
+      "questionId": 3,
+      "question": "How does Java handle memory management ?",
+      "choices": {
+        "1": "Developers need to manually allocate and free memory",
+        "2": "Java has automatic garbage collection for managing memory",
+        "3": "Java does not have any garbage collection mechanism",
+        "4": "Java uses delete and free functions for memory management"
+      }
+    },
+    {
+      "questionId": 4,
+      "question": "Which of the following is true about checked and unchecked exceptions ?",
+      "choices": {
+        "1": "Checked exceptions are checked at compile-time, unchecked exceptions at runtime",
+        "2": "Unchecked exceptions are checked at compile-time, checked exceptions at runtime",
+        "3": "Both checked and unchecked exceptions are checked at runtime",
+        "4": "Java does not have checked exceptions"
+      }
+    },
+    {
+      "questionId": 5,
+      "question": "What does the volatile keyword do in Java ?",
+      "choices": {
+        "1": "It makes a variable thread-safe by preventing caching in CPU registers",
+        "2": "It prevents multiple threads from accessing a variable",
+        "3": "It locks the object for synchronization",
+        "4": "It makes a variable immutable"
+      }
+    }
+  ]
+}

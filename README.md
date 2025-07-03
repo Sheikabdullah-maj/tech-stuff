@@ -2,10 +2,28 @@
 Hi,
 This is Sheik, a Software Developer. This is my github repo for public reference.
 
-This repo contains, 
-Full Stack projects under fullstack which indcludes Java+React, MERN.
-Standalone backend projects under backend-standalone like Spring batch, Kafka processing..etc.
-Standalone frontend projects under frontend-standalone like simple react projects.
-AI/ML related project under ai_ml.
+# 📦 Project Structure Overview
+
+This repository contains various project types organized into relevant folders:
+
+- **`fullstack/`**  
+  Full Stack projects combining frontend and backend technologies, including:  
+  - **Java + React**  
+  - **MERN Stack**  
+
+- **`backend-standalone/`**  
+  Standalone backend projects such as:  
+  - Spring Batch  
+  - Kafka Processing  
+  - Other independent backend modules  
+
+- **`frontend-standalone/`**  
+  Standalone frontend projects, for example:  
+  -  **React applications**  
+  - **UI prototypes** 
+
+- **`ai_ml/`**  
+  Projects related to AI/ML, including experiments, models, and utilities.  
+
 
 feel free to reach me out at sheikabdullah.maj@gmail.com

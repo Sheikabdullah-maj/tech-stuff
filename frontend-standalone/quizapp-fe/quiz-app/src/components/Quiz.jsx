@@ -14,14 +14,14 @@ export default function Quiz() {
             let selectedAnswer = selectedAnswers[i];
             let actualAnswer = QUESTIONS[i].value;
             if (selectedAnswer == actualAnswer) {
-                correctAnswers ++;
+                correctAnswers++;
             }
        }  
        return correctAnswers;   
     }
 
  
-    if(currentQuestionIndex == QUESTIONS.length-1){
+    if(currentQuestionIndex == QUESTIONS.length){
         let score = computeScore();
         let scoreInString = score + '/' + QUESTIONS.length
         return <div id="summary">
@@ -53,7 +53,7 @@ export default function Quiz() {
 
     return (
         <div id='quiz'>
-        <QuizTimer timeout={10000} timeoutCallback={timeoutHandler} key={currentQuestionIndex} />
+        <QuizTimer timeout={30000} timeoutCallback={timeoutHandler} key={currentQuestionIndex} />
         <div className='question'>
         <h2>{currentQuestion.text}</h2>
         <ul className='answers'>
